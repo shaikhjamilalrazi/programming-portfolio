@@ -40,3 +40,42 @@ section {
   border-radius: 5px;
   color: white;
 }
+
+p {
+  columns: dimgray;
+}
+
+.dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.single-experience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  height: 80%;
+  background: white;
+}
+
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, red, rgb(138, 255, 71));
+  border-image-slice: 1;
+}
+
+#baby-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, tomato);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+}
